@@ -13,7 +13,7 @@ public class logintest extends BaseTest {
 	
 	@Before
     public void beforeScenario(){
-        System.out.println("This will run before the Scenario");
+        System.out.println("This will run before the Scenario123");
     }	
 	
 	@After
