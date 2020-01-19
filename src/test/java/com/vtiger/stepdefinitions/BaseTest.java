@@ -18,6 +18,10 @@ public class BaseTest {
 	
 	public void openapp()
 	{
+		 String url =  System.getProperty("Env");
+	         String type =  System.getProperty("TestingType");
+	         System.out.println("Jenkins url "+url);
+	         System.out.println("Jenkins Test "+type);
 		CommonFunction cm= new CommonFunction();
 		report=cm.setupResult();
 		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+ "/src/test/resources/chromedriver.exe");
